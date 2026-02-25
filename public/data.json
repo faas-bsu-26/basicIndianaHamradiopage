@@ -1,0 +1,33 @@
+{
+    "overview": "Locked tomb series by Tamsyn Muir",
+    "books": [
+        {
+            "title": "Gideon the Ninth",
+            "author": "Tamsyn Muir",
+            "year": 2019,
+            "series": "The Locked Tomb",
+            "order": 1
+        },
+        {
+            "title": "Harrow the Ninth",
+            "author": "Tamsyn Muir",
+            "year": 2020,
+            "series": "The Locked Tomb",
+            "order": 2
+        },
+        {
+            "title": "Nona the Ninth",
+            "author": "Tamsyn Muir",
+            "year": 2022,
+            "series": "The Locked Tomb",
+            "order": 3
+        },
+        {
+            "title": "Not out the Ninth",
+            "author": "Tamsyn Muir",
+            "year": 2030,
+            "series": "The Locked Tomb",
+            "order": 4
+        }
+    ]
+}
