@@ -23,5 +23,5 @@ import Getlicensed from '../getlicensed.vue';
     <Getlicensed/>
 
 
-    <img src="/IndianaHamradiologo.jpg" alt="Indiana Ham radio logo" />
+    <img src="/IndianaHamradiologo.png" alt="Indiana Ham radio logo" />
 </template>
