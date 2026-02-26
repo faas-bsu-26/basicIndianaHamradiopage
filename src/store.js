@@ -1,7 +1,6 @@
 import { reactive } from 'vue'
 
 export const store = reactive({
-  count: 0,
   books: [],
   fetchData: async function() {
     try {
@@ -11,8 +10,5 @@ export const store = reactive({
     } catch (error) {
       console.error('Error fetching data:', error);
     }
-  },
-  countUp() {
-    this.count++
   }
 })

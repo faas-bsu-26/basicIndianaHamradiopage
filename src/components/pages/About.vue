@@ -1,9 +1,10 @@
 <script setup>
-import { store } from '../../store.js'
+import ContactInfo from '../ContactInfo.vue';
+
 </script>
 
 <template>
     <h1>About</h1>
-    <div>Count: {{ store.count }}  </div>
-    <button @click="store.countUp()">More score and seven years ago</button>
+
+   <ContactInfo/>
 </template>

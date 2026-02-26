@@ -1,21 +1,20 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 import { onMounted } from 'vue'
 import { store } from './store.js'
-import { on } from '@primeuix/themes/aura/floatlabel';
-
+import Navbar from "./components/Navbar.vue"
+import { useRoute } from "vue-router"
+const route = useRoute()
 onMounted(() => {
   store.fetchData();
 });
 </script>
 
 <template>
-  <nav>
-    <button><RouterLink to="/">Home</RouterLink></button>
-    <button><RouterLink to="/about">About</RouterLink></button>
-    <button><RouterLink to="/hello">Test new route</RouterLink></button>
-  </nav>
+  <h1>Welcome to Indiana Ham Radio.com </h1>
+  <Navbar />
   <RouterView />
+
 </template>
 
 <style scoped>
