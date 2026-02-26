@@ -1,8 +1,13 @@
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue"
 
-export default defineConfig(({ mode }) => ({
+export default defineConfig({
   plugins: [vue()],
-  base: mode === "production" ? "/basicIndianaHamradiopage/" : "/",
-  server: { port: 8080, strictPort: true },
-}))
+  preview: {
+    host: true,
+    port: 8080,
+    allowedHosts: [
+      "urchin-app-7gjmj.ondigitalocean.app"
+    ]
+  }
+})
